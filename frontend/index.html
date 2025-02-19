@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Text Extractor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF Text Extractor</h1>
+        <div id="drop-area">
+            <p>Drag and drop a PDF file here, or click to select a file.</p>
+            <input type="file" id="fileElem" accept=".pdf" style="display: none;" onchange="handleFiles(this.files)">
+            <button id="fileSelectButton">Select a File</button> 
+        </div>
+        <div id="status"></div>
+         <div id="download-link-container" style="display: none;">  
+           <a id="download-link" href="#" download>Download Extracted Text</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

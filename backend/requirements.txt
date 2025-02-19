@@ -1,0 +1,4 @@
+flask
+flask_cors
+PyPDF2
+google-genai  # or the appropriate package name for the Gemini API client

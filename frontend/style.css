@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+#drop-area.highlight {
+    border-color: #007bff;
+    background-color: #e0f0ff;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+#download-link-container {
+    margin-top: 20px;
+}
+#fileSelectButton {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
