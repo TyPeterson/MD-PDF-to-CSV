@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure the Google Gemini API key from the environment variable
-client = genai.Client(api_key="AIzaSyCrFqdIPZnSsvJJvsL7vcUe7weTFehnGLQ")
+client = genai.Client(api_key="GEMINI_API_KEY")
 
 
 
